@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1")
+@RequestMapping("/api/v0")
 public class Users {
     private static List<String> users = new ArrayList<>();
     @GetMapping("/users")
